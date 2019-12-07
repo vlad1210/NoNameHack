@@ -1,5 +1,6 @@
 #include "CClass.h"
-
+#include "MinHook.h"
+#pragma comment (lib, "zxcawq.lib" )
 
 class Hook;
 class CSystem;
