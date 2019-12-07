@@ -96,11 +96,11 @@ void Hook::vHook(LPVOID pDetour, EndScene &hr_end_scene_orig)
 
 bool Hook::v_hook(LPVOID pTarget, LPVOID pDetour, LPVOID *ppOriginal)//use MinHook https://github.com/TsudaKageyu/minhook
 {
-	if (InitHook() != MH_OK) return false;
+	if (qweqetts() != MH_OK) return false;
 
-	if (CreateHook(pTarget, pDetour, ppOriginal) != MH_OK) return false;
+	if (zxcasdqwe(pTarget, pDetour, ppOriginal) != MH_OK) return false;
 
-	if (EnableHook(pTarget) != MH_OK) return false;
+	if (zcxxzaq(pTarget) != MH_OK) return false;
 
 	return true;
 
